@@ -1,0 +1,9 @@
+[client]
+#howErrorDetails = "none"
+
+[theme]
+primaryColor="#ff8a8a"
+backgroundColor="#373737"
+secondaryBackgroundColor="#000000"
+textColor="#ffffff"
+
