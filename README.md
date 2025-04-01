@@ -84,14 +84,14 @@ Access the app at: **http://localhost:8501/**
 ```
 📂 ImageGPT/
 ├── .streamlit/
-    ├── config.toml
-    ├── secrets.toml
-├── app.py  # Main Streamlit application
-├── requirements.txt  # Required Python packages
-├── .env  # API key storage (ignored in git)
-├── .streamlit/secrets.toml  # Alternative API key storage
-├── Dockerfile  # Docker configuration
-└── README.md  # Project documentation
+    ├── config.toml                 #Application config file
+    ├── secrets.toml                #Environment Variable config file
+├── app.py                          # Main Streamlit application
+├── requirements.txt                # Required Python packages
+├── .env                            # API key storage (ignored in git)
+├── .streamlit/secrets.toml         # Alternative API key storage
+├── Dockerfile                      # Docker configuration (simple)
+└── README.md                       # Project documentation
 ```
 
 ---
@@ -103,3 +103,4 @@ Access the app at: **http://localhost:8501/**
 - Pillow
 - dotenv
 
+---
