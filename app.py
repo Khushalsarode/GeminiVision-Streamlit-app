@@ -19,12 +19,13 @@ load_dotenv()
 # Access environment variables as if they came from the actual environment
 GEMINI_SECRET_KEY = os.getenv('GOOGLE_GEMINI_AI_KEY')
 
-# Example usage
-print(f'SECRET_KEY: {GEMINI_SECRET_KEY}')
+if GEMINI_SECRET_KEY:
+    # Example usage
+    print(f'SECRET_KEY: {GEMINI_SECRET_KEY}')
 
-# Configure Gemini API Key
-genai.configure(api_key=GEMINI_SECRET_KEY)
-print("Gemini API Key configured.")
+    # Configure Gemini API Key
+    genai.configure(api_key=GEMINI_SECRET_KEY)
+    print("Gemini API Key configured.")
 
 # Set up logging    
 logging.basicConfig(level=logging.INFO)
